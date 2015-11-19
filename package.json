@@ -1,0 +1,29 @@
+{
+  "name": "blooper",
+  "version": "0.0.1",
+  "description": "Handle all your errors in one place.",
+  "main": "dist/blooper.js",
+  "jsnext:main": "blooper.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mgrahamjo/blooper.git"
+  },
+  "keywords": [
+    "promise",
+    "error",
+    "handler",
+    "handling"
+  ],
+  "author": "Mike Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgrahamjo/blooper/issues"
+  },
+  "homepage": "https://github.com/mgrahamjo/blooper#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-jshint": "^0.11.3"
+  }
+}

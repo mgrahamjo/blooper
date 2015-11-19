@@ -101,7 +101,7 @@ http.createServer((req, res) => {
 
 #### Make Blooper global
 
-Globals are generally a last resort, but I'll let you make an exception for Blooper, since it's really intended to be global in nature - it's use is to replace language constructs, after all.
+Globals are generally a last resort, but I'll let you make an exception for Blooper, since it's really intended to be global in nature - its use is to replace language constructs, after all.
 
 ```javascript
 let response;
@@ -114,6 +114,7 @@ const http = require('http'),
 		response.end(error.stack || error);
 	});
 
+// This makes the global.handle method available in all modules
 global.handle = blooper.handle;
 
 http.createServer((req, res) => {

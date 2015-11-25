@@ -1,6 +1,6 @@
 {
   "name": "blooper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handle all your errors in one place.",
   "main": "dist/blooper.js",
   "jsnext:main": "blooper.js",

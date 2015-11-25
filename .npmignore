@@ -1,3 +1,4 @@
 .gitignore
 .jshintrc
-Gruntfile
+Gruntfile.js
+node_modules

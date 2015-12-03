@@ -2,3 +2,4 @@
 .jshintrc
 Gruntfile.js
 node_modules
+test
